@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite">
+<listeners>
+    <listener class-name="org.qa.testutils.Listeners"></listener>
+</listeners>
+<test name="Form Page" >
+         <classes>
+             <class name="org.qa.androidtest.FormPageTest" />
+         </classes>
+</test>
+<test name="Cart Page">
+           <classes>
+               <class name="org.qa.androidtest.CartPageTest"/>
+           </classes>
+</test>
+<test name="Product Catalog">
+           <classes>
+               <class name="org.qa.androidtest.ProductCatalogPageTest"/>
+           </classes>
+</test>
+<test name="Reporter Test" >
+        <classes>
+            <class name="org.qa.androidtest.ReporterTest" />
+        </classes>
+</test>
+</suite>
